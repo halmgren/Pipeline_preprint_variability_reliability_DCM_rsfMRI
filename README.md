@@ -1,2 +1,8 @@
 # Pipeline_preprint_variability_reliability_DCM_rsfMRI
 This repository contains the code that was used for the analyses of the preprint concerning variability and reliability of DCM for resting state fMRI (https://doi.org/10.1101/273565)
+
+The main pipeline is located in the 'Main_code'-folder. The instructions for reproduction are included in the 'Pipeline_paper_variability.m'-file, and the pipeline can be applied by executing the same file.
+
+This code is provided without any warranty.
+
+For feedback and comments, please contact Hannes Almgren (Hannes.Almgren@ugent.be)
