@@ -1,5 +1,5 @@
 # Pipeline_preprint_variability_reliability_DCM_rsfMRI
-For the repository of the paper published in NeuroImage (https://doi.org/10.1016/j.neuroimage.2018.08.053), please go to . 
+For the repository of the paper published in NeuroImage (https://doi.org/10.1016/j.neuroimage.2018.08.053), please go to https://github.com/halmgren/Pipeline_article_NeuroImage_variability_reliability_Effective_connectivity_rsfMRI. 
 
 This repository contains the code that was used for the analyses of the preprint concerning variability and reliability of DCM for resting state fMRI (https://doi.org/10.1101/273565)
 
