@@ -1,4 +1,6 @@
 # Pipeline_preprint_variability_reliability_DCM_rsfMRI
+For the repository of the paper published in NeuroImage (https://doi.org/10.1016/j.neuroimage.2018.08.053), please go to . 
+
 This repository contains the code that was used for the analyses of the preprint concerning variability and reliability of DCM for resting state fMRI (https://doi.org/10.1101/273565)
 
 The main pipeline is located in the 'Main_code'-folder. The instructions for reproduction (and data availability) are included in the 'Pipeline_paper_variability.m'-file, and the pipeline can be applied by executing the same file. 
