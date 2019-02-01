@@ -15,6 +15,8 @@ function spm_plot_ci_adapt_v2(E,C,x,j,s)
 % Karl Friston
 % $Id: spm_plot_ci.m 6856 2016-08-10 17:55:05Z karl $
 
+%Adapted by Hannes Almgren (Ghent University) for paper/preprint concerning variability and reliability of spDCM
+%This code is NOT part of the SPM package, it is an adapted version for specific purpose
 
 % get axis
 %--------------------------------------------------------------------------

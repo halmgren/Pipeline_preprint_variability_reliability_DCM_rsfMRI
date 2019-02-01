@@ -6,6 +6,9 @@ function scatterHistDiff_adapt(x, y, xeb, yeb, colors, PP)
 % 
 % Anne Urai, 2016
 
+%adapted by Hannes Almgren (Ghent University) for paper/preprint concerning variability and reliability of DCM
+%This code is NOT part of the plotting toolbox of anne-urai, it is an adapted version for specific purpose
+
 % when no errorbars are present
 if ~exist('xeb', 'var') || isempty(xeb), xeb = nan(1, length(x)); end
 if ~exist('yeb', 'var') || isempty(yeb), yeb = nan(1, length(y)); end

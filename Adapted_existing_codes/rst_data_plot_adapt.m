@@ -33,6 +33,9 @@ function [est,HDI,K]=rst_data_plot_adapt(Data,varargin)
 % -------------------------------------------------------------------------
 % Copyright (C) RST Toolbox Team 2015
 
+%adapted by Hannes Almgren (Ghent University) for paper/preprint concerning variability and reliability of DCM
+%This code is NOT part of the robust statistical toolbox package, it is an adapted version for specific purpose
+
 %% Defaults
 
 % hard coded

@@ -84,6 +84,8 @@ function [PEB,P]   = spm_dcm_peb_of_peb(P,M,field)
 % Karl Friston
 % $Id: spm_dcm_peb.m 6778 2016-04-22 11:51:29Z guillaume $
  
+%Adapted by Frederik Van de Steen (Ghent University) for hierarchical estimation
+%This code is NOT part of the SPM package, it is an adapted version for specific purpose
 
 % get filenames and set up
 %==========================================================================
@@ -453,7 +455,7 @@ for n = 1:128
     end
      
 end
-
+Niter=n; %self-included
 
 % assemble output structure
 %==========================================================================
@@ -536,6 +538,10 @@ PEB.Ch   = Cg;
 PEB.Cp   = Ub*Cb*Ub';
 PEB.Ce   = U*rC*U';
 PEB.F    = F;
+PEB.Niter= Niter; %Self-included
+PEB.Fc= Fc; %Self-included
+PEB.Fg= Fg; %Self-included
+PEB.Fb= Fb; %Self-included
 
 spm_unlink('tmp.mat');
 
